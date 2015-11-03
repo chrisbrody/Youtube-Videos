@@ -1,0 +1,24 @@
+section {
+  margin: 30px auto;
+  width: 825px;
+  display: block;
+  text-align: center;
+}
+div.image-wrapper {
+	text-align: center
+}
+.meet {
+  position: absolute;
+  margin-left: -150px;
+  margin-top: -100px;
+}
+.meet a {
+  display: block;
+  width: 143px;
+  height: 104px;
+  background: url('../img/img-customers.png') no-repeat 0 0;
+  text-indent: -1000em;
+}
+.meet a:hover {
+  background-position: 0 100%;
+}
