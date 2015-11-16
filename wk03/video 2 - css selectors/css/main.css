@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+}
+nav {
+	background-color: gray;
+}
+nav ul {
+	margin: 0;
+}
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: green;
+}
+
+a {
+	color: purple;
+}
