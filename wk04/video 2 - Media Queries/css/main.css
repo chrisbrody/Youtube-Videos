@@ -1,0 +1,16 @@
+body {
+  background-color: pink;
+}
+h1 {
+  font-size: 100px;
+  color: red;
+}
+
+@media (max-width:500px) {
+  body {
+    background-color: white;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
