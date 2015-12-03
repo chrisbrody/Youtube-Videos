@@ -1,5 +1,8 @@
+/*==================================================
+	Sitewide Styles
+==================================================*/
 * {
-	font-size: 18px;
+	color: #000;
 }
 body {
 	background: none repeat scroll 0 0 #fff;
@@ -17,11 +20,14 @@ a:hover {
 a.button:hover {
 	text-decoration: none;
 }
-ul#nav {
+/*==================================================
+	Top Section - Navigation
+==================================================*/
+.top-navigation {
 	float:right;
 	margin-right: 25px;
 }
-ul#nav li{
+.top-navigation li{
 	list-style: none;
 	display: inline-block;
 	text-align: right;
@@ -39,35 +45,37 @@ ul#nav li{
 .fa:hover {
 	opacity: 1.0;
 }
-span#share {
+.share-button {
 	background-color: #f2f2f2;
 	padding:7px 15px;
 	cursor: default;
 	position: relative;
     top: -3px;
 }
-}
-span#share:hover {
+.share-button:hover {
 	background-color: #E1E1E1;
 }
-img.profile_img {
+.profile-img {
 	border-radius: 25px;
 	height: 32px;
     width: 32px;
     position: relative;
     top: 5px;
 }
-div#searchBox {
+/*==================================================
+	Middle Section - Search Box
+==================================================*/
+.search-box {
 	position: absolute;
 	margin-top:75px;
 	width:100%;
 }
-div#searchBox img {
+.search-box img {
 	padding:142px 0 24px 0;
 	display: block;
 	margin:0 auto;
 }
-#searchBox input {
+.search-box input {
 	width: 600px;
     margin: 0 auto;
     padding: 5px;
@@ -76,14 +84,14 @@ div#searchBox img {
     border-radius: 5px;
     display: block;
 }
-#searchBox input:focus {
+.search-box input:focus {
 	border-color: #f5f5f5;
 }
-div.buttons  {
+.search-buttons  {
 	text-align: center;
 	padding-left: 0;
 }
-div.buttons button{
+.search-buttons button{
     background-color: #f5f5f5;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 2px;
@@ -96,53 +104,51 @@ div.buttons button{
     display: inline-block;
     cursor: pointer;
 }
-div.buttons div:hover{
+.search-button button:hover{
 	background-color:#f8f8f8;
 	border: 1px solid #c6c6c6;
     box-shadow:0 1px 1px rgba(0,0,0,0.1);
     color:#333;
-    cursor: default;
 } 
-/*Bottom Div*/
-div#bottom {
+/*==================================================
+	Bottom Section - Site Links
+==================================================*/
+.bottom-site-links {
 	bottom: 0 !important;
 	position: absolute;
 	width:100%;
 	background-color: #f2f2f2;
 	border-top: 1px solid #e4e4e4; 
 }
-ul#left, 
-ul#right {
-	margin: 10px 0;
+.left-site-links, 
+.right-site-links {
+	margin: 0;
 }
-ul#left {
+.left-site-links {
 	float:left;
 	padding-left:20px;
 }
-ul#right {
+.right-site-links {
 	float:right;
 	padding-right:10px;
 }
-ul#left li,
-ul#right li{
+.left-site-links li,
+.right-site-links li{
 	list-style: none;
 	display: inline;
 	line-height: 40px;
 }
-ul#right li a:first-child {
+.right-site-links li a:first-child {
 	padding-right:8px;
 }
-ul#left li:nth-child(2),
-ul#left li:nth-child(3) {
+.left-site-links li:nth-child(2),
+.left-site-links li:nth-child(3) {
 	margin-left:7px;
 }
-ul#left li a,
-ul#right li a {
+.left-site-links li a,
+.right-site-links li a {
 	color: #666;
     margin: 2px 10px 0;
     letter-spacing: 0.1px;
-    font-size: 18px;
+    font-size: 14px;
 }
-
-
-

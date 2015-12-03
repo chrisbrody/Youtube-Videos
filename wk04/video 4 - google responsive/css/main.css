@@ -20,7 +20,6 @@ a:hover {
 a.button:hover {
 	text-decoration: none;
 }
-
 /*==================================================
 	Top Section - Navigation
 ==================================================*/
@@ -63,8 +62,6 @@ a.button:hover {
     position: relative;
     top: 5px;
 }
-
-
 /*==================================================
 	Middle Section - Search Box
 ==================================================*/
@@ -113,8 +110,6 @@ a.button:hover {
     box-shadow:0 1px 1px rgba(0,0,0,0.1);
     color:#333;
 } 
-
-
 /*==================================================
 	Bottom Section - Site Links
 ==================================================*/
@@ -157,9 +152,9 @@ a.button:hover {
     letter-spacing: 0.1px;
     font-size: 14px;
 }
-
-
-
+/*==================================================
+	Media Queries
+==================================================*/
 @media screen and (max-width: 1000px) {
 	.search-box input {
     	width: 650px;
@@ -206,5 +201,4 @@ a.button:hover {
 	.search-button button {
 		padding: 1px 10px;
 	}
-
 }
