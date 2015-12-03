@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Site Title -->
+		<title>Bootstrap Modals</title>
+		<!-- Boostrap CSS - Minified -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Author Custom CSS -->
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+		  Click Me
+		</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">My First Bootstrap Modal</h4>
+		      </div>
+		      <div class="modal-body">
+		        Content goes here
+		      </div>
+		      <div class="modal-footer">
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!-- Include jQuery -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
