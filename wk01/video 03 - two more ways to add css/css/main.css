@@ -1,9 +1,15 @@
+/*select all h1 tags*/
 h1 {
+	/*change the text color to red*/
 	color:red;
 }
+/*select all h2 tags*/
 h2 {
+	/*change the text color to black*/
 	color:black;
 }
+/*select all h3 tags*/
 h3 {
+	/*change the text color to black*/
 	color:black;
 }

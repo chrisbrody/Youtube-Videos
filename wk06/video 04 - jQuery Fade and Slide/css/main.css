@@ -1,0 +1,21 @@
+/* ======================================================================
+  Author Custom Styles
+====================================================================== */
+div	{
+	width: 200px;
+	height: 200px;
+}
+.first-1, .first-2, .first-3, .first-4, .first-5, .first-6 {
+	background-color: red;
+}
+.second-1, .second-2, .second-3, .second-4, .second-5, .second-6 {
+	background-color: green;
+}
+.third-1, .third-2, .third-3, .third-4, .third-5, .third-6 {
+	background-color: blue;
+}
+
+.first-1, .second-1, .third-1,
+.first-5, .second-5, .third-5 {
+	display: none;
+}

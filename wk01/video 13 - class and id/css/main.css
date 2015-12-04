@@ -1,24 +1,46 @@
+/*select all h1 tags*/
 h1 {
+	/*change the text color to red*/
 	color:red;
 }
+/*select all h2 tags*/
 h2 {
+	/*change the text color to black*/
 	color:black;
 }
+/*select all h3 tags*/
 h3 {
+	/*change the text color to black*/
 	color:black;
 }
+/*select all span tags*/
+span {
+	/*change the font size to 100 pixels*/
+	font-size: 100px;
+}
+/*select all div tags*/
 div {
+	/*change the background color to pink*/
 	background-color:pink;
+	/*set the height to 200 pixels*/
 	height: 200px;
-	width: 300px;
+	/*set the width to 500 pixels*/
+	width: 500px;
+	/*float to the left*/
 	float: left;
 }
+/*select all tags that have a class of one*/
 .one {
+	/*change the background color to grey*/
 	background-color: grey;
 }
+/*select all tags that have a class of two*/
 .two {
+	/*set the height to 500 pixels*/
 	height: 500px;
 }
+/*select all tags that have a class of three*/
 #three {
+	/*set the width to 100 pixels*/
 	width: 100px;
 }

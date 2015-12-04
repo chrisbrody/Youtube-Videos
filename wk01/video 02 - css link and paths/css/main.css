@@ -1,3 +1,5 @@
+/*select all h1 tags*/
 h1 {
-		color:red;
+	/*change the text color to red*/
+	color:red;
 }
