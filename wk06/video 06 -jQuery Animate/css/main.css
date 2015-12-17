@@ -1,0 +1,16 @@
+/* ======================================================================
+  Author Custom Styles
+====================================================================== */
+div {
+	width:200px;
+	height:200px;
+}
+.first {
+	background-color:red;
+}
+.second {
+	background-color:green;
+}
+.third {
+	background-color:blue;
+}
