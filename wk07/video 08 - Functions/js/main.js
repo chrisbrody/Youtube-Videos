@@ -12,8 +12,8 @@
 // add()
 
 // part 2 - with arguments
-var num1 = 10
-var num2 = 15
+// var num1 = 10
+// var num2 = 15
 
 // function add(a, b) {
 // 	document.write(a + b)
