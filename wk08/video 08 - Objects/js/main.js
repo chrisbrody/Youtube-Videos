@@ -24,6 +24,6 @@ var ford = {
 console.log(ford.model)
 // change ford.model value to F150
 ford.model = "F150"
-console.log(honda.model
+console.log(honda.model)
 console.log(toyota.model)
 console.log(ford.model)
