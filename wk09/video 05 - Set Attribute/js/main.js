@@ -11,7 +11,7 @@ var textHere = document.createTextNode('write our text here')
 // call the newDiv and add the text to it
 newDiv.appendChild(textHere)
 // set the source attribute to this image link
-newImg.setAttribute('src', 'http://img1/123freevectors.com/wp-content/uploads/new/icon/075-smiley-face-vector-art-free-download-l.png')
+newImg.setAttribute('src', 'http://img1.123freevectors.com/wp-content/uploads/new/icon/075-smiley-face-vector-art-free-download-l.png')
 // store a variable that gets the addHere id
 var addHere = document.getElementById('addHere')
 // add the newly created div into the addHere id tag
