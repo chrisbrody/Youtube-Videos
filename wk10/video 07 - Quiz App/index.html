@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz Application</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+				<form>
+					<div class="form-group">
+						<h2 id="question0"></h2>
+						<input id="answer0" type="text" class="form-control">
+					</div>
+					<div class="form-group">
+						<h2 id="question1"></h2>
+						<input id="answer1" type="text" class="form-control">
+					</div>
+					<div class="form-group">
+						<h2 id="question2"></h2>
+						<input id="answer2" type="text" class="form-control">
+					</div>
+					<div class="form-group">
+						<h2 id="question3"></h2>
+						<input id="answer3" type="text" class="form-control">
+					</div>
+					<div class="form-group">
+						<h2 id="question4"></h2>
+						<input id="answer4" type="text" class="form-control">
+					</div>
+					<div class="form-group">
+						<h2 id="question5"></h2>
+						<input id="answer5" type="text" class="form-control">
+					</div>
+					<div class="form-group">
+						<h2 id="question6"></h2>
+						<input id="answer6" type="text" class="form-control">
+					</div>
+					<div class="form-group">
+						<h2 id="question7"></h2>
+						<input id="answer7" type="text" class="form-control">
+					</div>
+					<div class="form-group">
+						<h2 id="question8"></h2>
+						<input id="answer8" type="text" class="form-control">
+					</div>
+					<div class="form-group">
+						<h2 id="question9"></h2>
+						<input id="answer9" type="text" class="form-control">
+					</div>
+					<br>
+					<button type="button" class="btn btn-default" onclick="testResults()">See Results</button>
+
+				</form>
+			</div>
+			<div class="col-md-2 col-md-offset-1">
+				<h1 class="correct">Correct: <span id="correct"></span></h1>
+				<h1 class="incorrect">Incorrect:  <span id="incorrect"></span></h1>
+			</div>
+		</div>
+		<br>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
