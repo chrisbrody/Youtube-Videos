@@ -1,5 +1,5 @@
 /* ======================================================================
-  Author Custom JavaScript
+  Author Custom JavaScript I Don't Know
 ====================================================================== */
 // Loop through Array of Objects
 var objPeople = [
